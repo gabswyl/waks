@@ -1,0 +1,61 @@
+{
+    "projetos": [
+      {
+        "id": 1,
+        "img": "troupe.jpg",
+        "select": ["frontend"],
+        "project": "e-commerce pichau",
+        "stacks": "html, css, js"
+      },
+      {
+        "id": 2,
+        "img": "troupe.jpg",
+        "select": ["backend", "frontend"],
+        "project": "anime news",
+        "stacks": "mongodb, nodejs, prisma, reactjs"
+      },
+      {
+        "id": 3,
+        "img": "troupe.jpg",
+        "select": ["backend", "frontend"],
+        "project": "imobiliaria",
+        "stacks": "mongodb, nodejs, prisma, reactjs, docker, arquitetura de software"
+      },
+      {
+        "id": 4,
+        "img": "troupe.jpg",
+        "select": ["frontend"],
+        "project": "origamid landing page",
+        "stacks": "reactjs"
+      },
+      {
+        "id": 5,
+        "img": "troupe.jpg",
+        "select": ["backend"],
+        "project": "api gateway",
+        "stacks": "nodejs"
+      },
+      {
+        "id": 6,
+        "img": "troupe.jpg",
+        "select": ["frontend"],
+        "project": "aluguel de veiculos",
+        "stacks": "reactjs e typescript"
+      },
+      {
+        "id": 7,
+        "img": "troupe.jpg",
+        "select": ["backend", "frontend"],
+        "project": "e-commerce livro",
+        "stacks": "html, css, js"
+      },
+      {
+        "id": 8,
+        "img": "troupe.jpg",
+        "select": ["ux/ui"],
+        "project": "cafépet",
+        "stacks": "ux/ui design, wireframes, design system"
+      }
+    ]
+  }
+  

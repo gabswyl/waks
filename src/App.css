@@ -1,0 +1,157 @@
+.container {
+  padding: 48px 30px 16px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+strong {
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+
+p, li, span {
+  font-size: 1.25rem;
+  color: #333333;
+  list-style-type: none;
+}
+
+
+.profile {
+  width: 64px;
+  height: 64px;
+  border-radius: 40px;
+}
+
+.author-info {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 1rem;
+}
+
+.author-info p {
+  font-size: 1rem;
+}
+
+
+.resumo {
+  display: flex;
+  flex-direction: column;
+}
+
+.resumo div {
+  padding-bottom: 1rem;
+}
+
+.redes {
+  display: flex;
+  gap: 30px;
+}
+
+.redes li a {
+  text-decoration: none;
+  color: #0000FF;
+
+}
+
+hr {
+  border: 0; 
+  height: 1px; 
+  background-color: #333333;
+  margin: 20px 0px;
+}
+
+.selectRole {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.selectRole button {
+  font-size: 1.5rem;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 50px 0px;
+}
+
+.projects li {
+  position: relative;
+  width: 300px;
+}
+
+.projects span {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects img {
+  border-radius: 40px;
+  width: 300px;
+  height: 300px;
+}
+
+.selected {
+  background-color: #4c00ff;
+  color: #FFF
+}
+
+.red {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+
+.projects li .link {
+  display: none;
+}
+
+
+.projects li:hover .link {
+  display: block;
+}
+
+.link {
+  color: #4c00ff;
+  cursor: pointer;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+.arrow-icon--arrow, .arrow-icon--circle {
+  fill: #4c00ff;
+}
+
+
+.link--arrowed .arrow-icon {
+  position: relative;
+  top: -1px;
+  transition: transform 0.3s ease;
+  vertical-align: middle;
+}
+
+.link--arrowed .arrow-icon--circle {
+  transition: stroke-dashoffset 0.3s ease;
+  stroke-dasharray: 95;
+  stroke-dashoffset: 95;
+}
+
+.link--arrowed:hover .arrow-icon {
+  transform: translate3d(5px, 0, 0);
+}
+
+.link--arrowed:hover .arrow-icon--circle {
+  stroke-dashoffset: 0;
+}
